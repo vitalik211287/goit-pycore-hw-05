@@ -61,6 +61,6 @@ logs = reed_logs_from_file(log_file_path )
 parsed_logs = parse_log_line(logs)
 log_counts  = count_logs_by_level(parsed_logs)
 display_log_counts(log_counts )
-filter_logs_by_level(parsed_logs)
+filter_logs_by_level(parsed_logs, all_ifo_log)
 
 
